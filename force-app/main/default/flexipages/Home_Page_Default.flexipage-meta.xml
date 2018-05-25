@@ -36,11 +36,6 @@
             </componentInstanceProperties>
             <componentName>flexipage:filterListCard</componentName>
         </componentInstances>
-        <mode>Replace</mode>
-        <name>bottomLeft</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
                 <name>entityName</name>
@@ -59,6 +54,17 @@
                 <value>3</value>
             </componentInstanceProperties>
             <componentName>flexipage:filterListCard</componentName>
+        </componentInstances>
+        <mode>Replace</mode>
+        <name>bottomLeft</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>runtime_sales_activities:todayTaskContainer</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>home:topDealsContainer</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>bottomRight</name>
